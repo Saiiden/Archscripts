@@ -1,2 +1,2 @@
 # Archscripts
-Arch scripts to improve convenience. 
+Arch scripts for convenience. 
