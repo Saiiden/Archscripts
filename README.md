@@ -1,2 +1,2 @@
 # Archscripts
-Arch scripts for convenience. 
+Bash scripts for convenience. 
