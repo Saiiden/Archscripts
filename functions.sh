@@ -15,6 +15,7 @@ selected_packages=$(yay -Sl | awk '{print $2}' | \
 
     if [ -n "$selected_packages" ]; then
         for pkg in $selected_packages; do
+            yay -Gp "$pkg" | less
             yay -S "$pkg"
         done
     fi
