@@ -25,7 +25,7 @@ selected_packages=$(yay -Sl | awk '{print $2}' | \
 # Install fzf 
 # pacman -Syu fzf 
 # Add the file to your .bashrc
-# echo "source path/to/functions.txt" >> ~/.bashrc
+# echo "source path/to/functions.sh" >> ~/.bashrc
 
 ## Uncomment the code below and comment until this line for Ubuntu's apt 
 #aps() {
