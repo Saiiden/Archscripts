@@ -27,3 +27,7 @@ selected_packages=$(yay -Sl | awk '{print $2}' | \
 # Add the file to your .bashrc
 # echo "source path/to/functions.txt" >> ~/.bashrc
 
+## Uncomment the code below and comment until this line for Ubuntu's apt 
+#aps() {
+# apt list 2>/dev/null | awk -F '/' '{print $1}' | fzf --ansi --preview="apt show {} 2>/dev/null" --preview-window=:hidden --bind="space:toggle-preview" | xargs -r -d "\n" sudo apt install -y
+#}
