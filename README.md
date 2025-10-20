@@ -4,23 +4,34 @@ A Program for listing packages from your preferred package managers.
 ## Setup For Arch Linux (Pacman and Yay)
 
 ### Install fzf 
-```pacman -Syu fzf```
+```bash
+pacman -Syu fzf
+```
 
 ### Add the file to your ~/.bashrc
-```echo "./arch.sh" >> ~/.bashrc```
+```bash
+cat "./arch.sh" >> ~/.bashrc
+```
 
 ### Source your .bashrc to initialize the program
-```source .bashrc```
+```bash
+source ~/.bashrc
+```
 
 
 ## Setup For Ubuntu (Apt)
 
 ### Install fzf
-```sudo apt install fzf```
+```bash
+sudo apt install fzf
+```
 
 ### Add the file to your ~/.bashrc
-```echo "./ubuntu.sh" >> ~/.bashrc```
+```bash
+cat "./ubuntu.sh" >> ~/.bashrc
+```
 
 ### Source your .bashrc to initialize the program
-```source .bashrc```
-
+```bash
+source ~/.bashrc
+```
