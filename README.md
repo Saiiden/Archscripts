@@ -1,4 +1,5 @@
 # FuzzyPackageLister
+
 A Program for listing packages from your preferred package managers.
 
 ## Setup For Arch Linux (Pacman and Yay)
@@ -10,14 +11,8 @@ pacman -Sy fzf
 
 ### Add the file to your ~/.bashrc
 ```bash
-cat "./arch.sh" >> ~/.bashrc
+cat ./arch.sh >> ~/.bashrc
 ```
-
-### Source your .bashrc to initialize the program
-```bash
-source ~/.bashrc
-```
-
 
 ## Setup For Ubuntu (Apt)
 
@@ -28,10 +23,11 @@ sudo apt install fzf
 
 ### Add the file to your ~/.bashrc
 ```bash
-cat "./ubuntu.sh" >> ~/.bashrc
+cat ./ubuntu.sh >> ~/.bashrc
 ```
 
 ### Source your .bashrc to initialize the program
 ```bash
 source ~/.bashrc
 ```
+
