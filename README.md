@@ -5,7 +5,7 @@ A Program for listing packages from your preferred package managers.
 
 ### Install fzf 
 ```bash
-pacman -Syu fzf
+pacman -Sy fzf
 ```
 
 ### Add the file to your ~/.bashrc
