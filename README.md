@@ -26,6 +26,8 @@ sudo apt install fzf
 cat ./ubuntu.sh >> ~/.bashrc
 ```
 
+---
+
 ### Source your .bashrc to initialize the program
 ```bash
 source ~/.bashrc
