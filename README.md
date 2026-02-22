@@ -33,3 +33,11 @@ cat ./ubuntu.sh >> ~/.bashrc
 source ~/.bashrc
 ```
 
+
+
+# VmwareWM
+
+A Script to save you from X11 problems that close your vmware window unexpectedly
+
+## Run the file 
+bash ./vmwarewm.sh
