@@ -39,7 +39,7 @@ source ~/.bashrc
 
 A Script to save you from X11 problems that close your vmware window unexpectedly
 
-## Run the file 
+## Run the script 
 ```bash
  bash vmwarewm.sh
 ```
